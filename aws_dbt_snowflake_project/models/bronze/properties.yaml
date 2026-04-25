@@ -1,0 +1,10 @@
+models:
+  - name: bookings
+    config:
+      materialized: table
+  - name: listings
+    config:
+      materialized: table
+  - name: hosts
+    config:
+      materialized: table
